@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 209 123.4" style="enable-background:new 0 0 209 123.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#DBE1D2;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:url(#SVGID_4_);stroke:#663D31;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#3A405A;stroke:#663D31;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:url(#SVGID_5_);stroke:#663D31;stroke-miterlimit:10;}
+	.st6{fill:url(#SVGID_6_);stroke:#663D31;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<pattern  x="-45" y="152.4" width="33.9" height="24.6" patternUnits="userSpaceOnUse" id="SVGID_1_" viewBox="0 -24.6 33.9 24.6" style="overflow:visible;">
+	<g>
+		<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+		<g>
+			<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+			<rect y="-24.6" class="st1" width="33.9" height="24.6"/>
+		</g>
+	</g>
+</pattern>
+<pattern  x="-45" y="152.4" width="33.9" height="24.6" patternUnits="userSpaceOnUse" id="SVGID_2_" viewBox="0 -24.6 33.9 24.6" style="overflow:visible;">
+	<g>
+		<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+		<g>
+			<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+			<rect y="-24.6" class="st2" width="33.9" height="24.6"/>
+		</g>
+	</g>
+</pattern>
+<pattern  x="-45" y="152.4" width="33.9" height="24.6" patternUnits="userSpaceOnUse" id="SVGID_3_" viewBox="0 -24.6 33.9 24.6" style="overflow:visible;">
+	<g>
+		<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+		<g>
+			<rect y="-24.6" class="st0" width="33.9" height="24.6"/>
+			<rect y="-24.6" class="st1" width="33.9" height="24.6"/>
+		</g>
+	</g>
+</pattern>
+<g id="Laptop">
+	<pattern  id="SVGID_4_" xlink:href="#SVGID_1_" patternTransform="matrix(1 0 0 -1 3.3909 -15879.4814)">
+	</pattern>
+	<path class="st3" d="M182.3,113.2V11.4c0,0,0.5-2.8-4.1-2.8H28.1c0,0-2.3-0.7-2.3,2.5v102.3"/>
+	<rect x="29.4" y="16.2" class="st4" width="149.2" height="96.6"/>
+	<pattern  id="SVGID_5_" xlink:href="#SVGID_2_" patternTransform="matrix(1 0 0 -1 3.3909 -15879.4814)">
+	</pattern>
+	<circle class="st5" cx="104.1" cy="12.5" r="1.5"/>
+	<pattern  id="SVGID_6_" xlink:href="#SVGID_3_" patternTransform="matrix(1 0 0 -1 3.3909 -15879.4814)">
+	</pattern>
+	<path class="st6" d="M203.3,119.9H5.5c-1.8,0-3.4-1.5-3.4-3.4l0,0c0-1.8,1.5-3.4,3.4-3.4h197.9c1.8,0,3.4,1.5,3.4,3.4l0,0
+		C206.7,118.4,205.2,119.9,203.3,119.9z"/>
+	
+		<image style="overflow:visible;enable-background:new    ;" width="643" height="344" xlink:href="8810289FD191187B.png"  transform="matrix(0.2179 0 0 0.2164 35.0263 22.8332)">
+	</image>
+</g>
+</svg>

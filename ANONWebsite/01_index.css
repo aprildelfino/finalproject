@@ -26,9 +26,13 @@ body {
     margin: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
 
 #bgimg {
-    width: contain;
+    width: 100vw;
     height: auto;
     position: fixed;
     top: 0;
@@ -46,6 +50,7 @@ body {
 #header {
     width: 100%;
     height: 60px;
+    box-shadow:0px 0px 2px grey;
     padding: 2px;
     position: fixed;
     background-color: #3a405a;
@@ -56,21 +61,10 @@ body {
     margin-left: 10px;
     width: 50px;
     height: 50px;
+    position: relative;
+    padding-top: 3px;
 }
 
-#settings {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
-    position: absolute;
-    right: 5px;
-    top: 0px;
-    background-image: url(imgs/settings-24-512.png);
-    background-size: cover;
-}
-#settings:hover {
-    cursor: pointer;
-}
 
 
 /*******Middle*******/
@@ -81,7 +75,7 @@ body {
 }
 
 #controls {
-    width: 40%;
+    width: 35%;
     height: 300px;
     position: absolute;
     margin: auto;
@@ -93,10 +87,11 @@ body {
 }
 
 #middle h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 50pt;
-    color: #685044;
-    margin: 0;
+    width: 200px;
+    position: relative;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 #middle h3 {
     font-family: 'Arimo', sans-serif;
@@ -105,12 +100,12 @@ body {
 }
 
 .buttons {
-    width: 300px;
+    width: 100%;
     height: 60px;
     position: relative;
     margin: auto;
     text-align: center;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Merriweather', serif;
     font-size: 12pt;
     color: white;
     border-radius: 10px;
@@ -130,16 +125,6 @@ body {
     transform: scale(10px);
 }
 
-#LoadR {
-    left: 0;
-    right: 0;
-    background-color: #685044;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
 
 
 /*******Footer*******/
@@ -147,11 +132,12 @@ a {
 #footer {
     width: 100%;
     height: 180px;
-    position: relative;
-    bottom: 0%;
+    box-shadow:0px 0px 2px grey;
+    position: static;
+    bottom: -100px;
     background-color: #3a405a;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
     margin: 0;
     color: white;
 }
@@ -159,4 +145,34 @@ a {
 
 #copyright {
     font-size: 10px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+/***************RESPONSIVE*****************/
+
+@media screen and (max-width: 1004px) {
+    #bgimg {width: auto;}
+}
+
+@media screen and (max-width: 580px) {
+    #bgimg {width: auto}
+    #logo {margin: auto;
+    left: 0;
+    right: 0;}
+    
+    #controls {width: 80%;}
+    .buttons {width:100%;}
+    #middle h1 { width:50%;}
+    #middle h3 {width: 100%;}
+    
+    #copyright {width: 50%;font-size: 20px;}
 }
